@@ -1,0 +1,101 @@
+
+.header-div {
+	background-color: #535993;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.header-div > h1 {
+	font-size: 60px;
+	color: white;
+	margin-bottom: 0;
+}
+
+.header-div > h3 {
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #DDDFF0;
+}
+
+.header-div > p {
+	color: #DDDFF0;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.text-div {
+	padding-top: 20px;
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-div {
+	padding-top: 20px;
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.explanations {
+	padding-top: 10px;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	text-align: center;
+	color: black;
+}
+
+.table-map {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 14pt;
+	width: 300px;
+}
+
+.modal-header {
+	text-align: center;
+}
+
+.table-map th {
+	text-align: center;
+}
+
+div.suggestions {
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 5px;
+    font-size: 18pt;
+}
+
+
+.btn.btn-default.letter {
+	font-size: 18pt;
+
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 6px;
+	padding-right: 6px
+}
+
+.selected {
+	background-color: #EDEDED;
+}
+
+.no-break {
+	white-space: nowrap;
+}
+
+
+
+textarea.form-control {
+    direction: rtl;
+	font-size: 18pt;
+	resize: none;
+}
