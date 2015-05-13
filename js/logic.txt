@@ -1,0 +1,15 @@
+when we input a new letter:
+- if there is an open popup (selectedIndex not null):
+	- if the caret has moved:
+		hide popup and continue as if no popup
+	- if we strike the same input as before:
+		replace the last letter and change the highlighted letter in the popup
+	- if we strike a different letter:
+		hide popup (selectedIndex <- 0) and continue as if no popup
+- if there is no popup (selectedIndex == null):
+	- if we strike an unrecognized character:
+		- if it is a punctuation mark, add it and change final letter if needed
+		- otherwise, do not override output
+	- if we strike a single-mapping letter, display it
+	- if we strike a multi-mapping letter, display first mapping and display popup
+	

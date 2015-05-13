@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/phonetic-typer.js"></script>
+    <script src="js/caret-position.js"></script>
+
+    <title>ZenHebrew</title>
+</head>
+<body>
+<div class="header-div">
+	<h1>ZenHebrew</h1>
+	<h3>slom → שלום</h3>
+	<p>Write Hebrew text using the Roman alphabet! </p>
+</div>
+
+<div class="text-div">
+<textarea class="form-control" placeholder="Start typing Hebrew in phonetic" id="txt" dir="rtl" rows="5" cols="40"></textarea>
+</div>
+
+<div class="explanations">
+<p>Roman letters are mapped to Hebrew characters
+based on their sonority <span class="no-break">(d → ד, g → ג, etc.).</span> </p>
+<p>Some sounds can be written using several Hebrew letters 
+<span class="no-break">(for instance, "a" could be either א or ע).</span>
+In this case, just press the same letter again until you get the Hebrew character you want. 
+For instance, if you want the letter "ע", you should press the "a" key twice. </p>
+<p>Oh, and don't worry about final letters (ץ, ף, and so on). Just type the regular letter and 
+it will be turned automatically into its final counterpart if it is at the end of a word.</p>
+
+<p><a href="#" id="showMap" data-toggle="modal" data-target="#keyMapModal">Show full character map</a></p>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="keyMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Full Character Map</h4>
+      </div>
+      <div class="modal-body">
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
