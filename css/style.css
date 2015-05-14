@@ -22,7 +22,8 @@
 }
 
 .text-div {
-	padding-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 30px;
 	max-width: 700px;
 	height: 200px;
 	margin-left: auto;
@@ -37,7 +38,6 @@ textarea.form-control {
 }
 
 .explanations {
-	padding-top: 10px;
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
