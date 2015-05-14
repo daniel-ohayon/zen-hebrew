@@ -23,24 +23,22 @@
 
 .text-div {
 	padding-top: 20px;
-	width: 700px;
-	display: block;
+	max-width: 700px;
+	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.text-div {
-	padding-top: 20px;
-	width: 700px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+textarea.form-control {
+    direction: rtl;
+	font-size: 18pt;
+	resize: none;
+	height: 100%;
 }
 
 .explanations {
 	padding-top: 10px;
-	width: 600px;
-	display: block;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 16px;
@@ -76,7 +74,6 @@ div.suggestions {
     font-size: 18pt;
 }
 
-
 .btn.btn-default.letter {
 	font-size: 18pt;
 
@@ -92,12 +89,4 @@ div.suggestions {
 
 .no-break {
 	white-space: nowrap;
-}
-
-
-
-textarea.form-control {
-    direction: rtl;
-	font-size: 18pt;
-	resize: none;
 }
