@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -18,17 +20,15 @@
 <body>
 <div class="header-div">
 	<h1>ZenHebrew</h1>
-	<h3>slom → שלום</h3>
-	<p>Write Hebrew text using the Roman alphabet! </p>
+	<h3>Write Hebrew using the English alphabet. </h3>
 </div>
 
 <div class="text-div">
-<textarea class="form-control" placeholder="Start typing Hebrew in phonetic" id="txt" dir="rtl" rows="5" cols="40"></textarea>
+<textarea class="form-control" placeholder="Start typing Hebrew with an English keyboard" id="txt" dir="rtl" rows="5" cols="40"></textarea>
 </div>
 
 <div class="explanations">
-<p>Roman letters are mapped to Hebrew characters
-based on their sonority <span class="no-break">(d → ד, g → ג, etc.).</span> </p>
+<p>Each English letter is mapped to the Hebrew character with the closest sonority <span class="no-break">(d → ד, g → ג, r → ר, etc.).</span> </p>
 <p>Some sounds can be written using several Hebrew letters 
 <span class="no-break">(for instance, "a" could be either א or ע).</span>
 In this case, just press the same letter again until you get the Hebrew character you want. 
@@ -37,6 +37,18 @@ For instance, if you want the letter "ע", you should press the "a" key twice. <
 it will be turned automatically into its final counterpart if it is at the end of a word.</p>
 
 <p><a href="#" id="showMap" data-toggle="modal" data-target="#keyMapModal">Show full character map</a></p>
+
+<div class="social">
+ <a target="_blank" href="https://twitter.com/home?status=Write%20Hebrew%20using%20an%20English%20keyboard!%20http://tinyurl.com/p7sbzz3" class="btn btn-social-icon btn-twitter">
+    <i class="fa fa-twitter"></i>
+ </a>
+  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://daniel-ohayon.github.io/zen-hebrew/" class="btn btn-social-icon btn-facebook">
+    <i class="fa fa-facebook"></i>
+ </a>
+ <a target="_blank" href="https://plus.google.com/share?url=http://daniel-ohayon.github.io/zen-hebrew/" class="btn btn-social-icon btn-google">
+    <i class="fa fa-google"></i>
+ </a> 
+</div>
 </div>
 
 
