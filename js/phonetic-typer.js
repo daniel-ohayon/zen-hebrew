@@ -246,4 +246,8 @@ $(document).ready(function() {
 	
 	
 	txt.focus();
+	
+	var name = "zhfeedback";
+	var domain = "gmail.com";
+	$("form").after($("<a>", { text: "Contact", href: "mailto:"+name+"@"+domain}));
 });
